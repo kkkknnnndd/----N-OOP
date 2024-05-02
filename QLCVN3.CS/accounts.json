@@ -1,0 +1,55 @@
+[
+  {
+    "Fullname": "Quản lý",
+    "Username": "admin",
+    "Password": "123",
+    "Type": 0,
+    "Id": "adminID",
+    "ProjectsID": null,
+    "Active": true
+  },
+  {
+    "Fullname": "Nguyễn Văn A",
+    "Username": "NV001",
+    "Password": "123",
+    "Type": 1,
+    "Id": "NV001",
+    "ProjectsID": [
+      "P3",
+      "P1-P2"
+    ],
+    "Active": true
+  },
+  {
+    "Fullname": "Trần Thị B",
+    "Username": "NV002",
+    "Password": "123",
+    "Type": 1,
+    "Id": "NV002",
+    "ProjectsID": [
+      "P2",
+      "P1-P2"
+    ],
+    "Active": true
+  },
+  {
+    "Fullname": "Lê Văn C",
+    "Username": "NV003",
+    "Password": "123",
+    "Type": 1,
+    "Id": "NV003",
+    "ProjectsID": [
+      "P3"
+    ],
+    "Active": false
+  },
+  {
+    "Fullname": "Phạm Thị K",
+    "Username": "NV010",
+    "Password": "123",
+    "Type": 1,
+    "Id": "NV010",
+    "ProjectsID": [],
+    "Active": false
+  }
+]

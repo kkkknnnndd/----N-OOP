@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\obj\Debug\QLCVN3.CS.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\obj\Debug\QLCVN3.CS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\bin\Debug\QLCVN3.CS.exe.config
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\bin\Debug\QLCVN3.CS.exe
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\bin\Debug\QLCVN3.CS.pdb
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\obj\Debug\QLCVN3.CS.csproj.Up2Date
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\obj\Debug\QLCVN3.CS.exe
+C:\Users\Admin\source\repos\QLCVN3.CS\QLCVN3.CS\obj\Debug\QLCVN3.CS.pdb

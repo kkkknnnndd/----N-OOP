@@ -1,0 +1,265 @@
+[
+  {
+    "Id": "P1",
+    "Name": "Project Alpha",
+    "Target": 10000,
+    "StartDate": "2024-05-01T00:00:00",
+    "EndDate": "2024-12-01T00:00:00",
+    "Description": "Description of Project Alpha",
+    "Status": "Đã kết hợp",
+    "Tasks": [
+      {
+        "Name": "Task 1A",
+        "StartDate": "2024-04-10T00:00:00",
+        "EndDate": "2024-04-30T00:00:00",
+        "Process": 0,
+        "Incharge": {
+          "Id": "NV001",
+          "Name": "Nguyễn Văn A",
+          "Email": "nva@example.com",
+          "Gender": true,
+          "Age": 30
+        }
+      },
+      {
+        "Name": "Task 1B",
+        "StartDate": "2024-04-15T00:00:00",
+        "EndDate": "2024-04-20T00:00:00",
+        "Process": 0,
+        "Incharge": {
+          "Id": "NV001",
+          "Name": "Nguyễn Văn A",
+          "Email": "nva@example.com",
+          "Gender": true,
+          "Age": 30
+        }
+      },
+      {
+        "Name": "Task 1D",
+        "StartDate": "2024-04-17T00:00:00",
+        "EndDate": "2024-05-17T00:00:00",
+        "Process": 0,
+        "Incharge": null
+      }
+    ],
+    "Meetings": [
+      {
+        "Project": "Project Alpha",
+        "Date": "2024-05-22T00:00:00",
+        "Topic": "Topic1",
+        "Content": "Content1"
+      }
+    ],
+    "Members": [
+      {
+        "Id": "NV001",
+        "Name": "Nguyễn Văn A",
+        "Email": "nva@example.com",
+        "Gender": true,
+        "Age": 30
+      }
+    ],
+    "Messages": [
+      {
+        "Content": "toi la quan ly du an 1",
+        "DateTimeOfContent": "2024-04-17T23:29:59.364835+07:00",
+        "ProjectId": "P1",
+        "Fullname": "Quản lý"
+      },
+      {
+        "Content": "toi la nv001 cua du an 1",
+        "DateTimeOfContent": "2024-04-17T23:31:47.5983256+07:00",
+        "ProjectId": "P1",
+        "Fullname": "Nguyễn Văn A"
+      },
+      {
+        "Content": "xin chao",
+        "DateTimeOfContent": "2024-04-21T10:19:54.5235291+07:00",
+        "ProjectId": "P1",
+        "Fullname": "Quản lý"
+      }
+    ]
+  },
+  {
+    "Id": "P2",
+    "Name": "Project Beta",
+    "Target": 20000,
+    "StartDate": "2024-06-01T00:00:00",
+    "EndDate": "2025-01-01T00:00:00",
+    "Description": "Description of Project Beta",
+    "Status": "Đã kết hợp",
+    "Tasks": [
+      {
+        "Name": "Task 2A",
+        "StartDate": "2024-04-30T00:00:00",
+        "EndDate": "2024-05-30T00:00:00",
+        "Process": 0,
+        "Incharge": null
+      },
+      {
+        "Name": "Task 2B",
+        "StartDate": "2024-04-20T00:00:00",
+        "EndDate": "2024-05-01T00:00:00",
+        "Process": 0,
+        "Incharge": null
+      }
+    ],
+    "Meetings": [
+      {
+        "Project": "Project Beta",
+        "Date": "2024-05-21T00:00:00",
+        "Topic": "Topic2",
+        "Content": "Content2"
+      }
+    ],
+    "Members": [
+      {
+        "Id": "NV002",
+        "Name": "Trần Thị B",
+        "Email": "ttb@example.com",
+        "Gender": false,
+        "Age": 25
+      }
+    ],
+    "Messages": [
+      {
+        "Content": "xin chao",
+        "DateTimeOfContent": "2024-04-21T10:20:55.4205788+07:00",
+        "ProjectId": "P2",
+        "Fullname": "Quản lý"
+      },
+      {
+        "Content": "xin chao",
+        "DateTimeOfContent": "2024-04-21T10:21:29.7195692+07:00",
+        "ProjectId": "P2",
+        "Fullname": "Trần Thị B"
+      }
+    ]
+  },
+  {
+    "Id": "P3",
+    "Name": "Project Gamma",
+    "Target": 30000,
+    "StartDate": "2024-07-01T00:00:00",
+    "EndDate": "2024-12-31T00:00:00",
+    "Description": "Description of Project Gamma",
+    "Status": "Pending",
+    "Tasks": [
+      {
+        "Name": "Task 3A",
+        "StartDate": "2024-05-02T00:00:00",
+        "EndDate": "2024-05-15T00:00:00",
+        "Process": 0,
+        "Incharge": null
+      },
+      {
+        "Name": "Task 3B",
+        "StartDate": "2024-04-20T00:00:00",
+        "EndDate": "2024-05-01T00:00:00",
+        "Process": 0,
+        "Incharge": null
+      }
+    ],
+    "Meetings": [
+      {
+        "Project": "Project Gamma",
+        "Date": "2024-05-23T00:00:00",
+        "Topic": "Topic3",
+        "Content": "Content3"
+      }
+    ],
+    "Members": [
+      {
+        "Id": "NV003",
+        "Name": "Lê Văn C",
+        "Email": "lvc@example.com",
+        "Gender": true,
+        "Age": 35
+      },
+      {
+        "Id": "NV001",
+        "Name": "Nguyễn Văn A",
+        "Email": "nva@example.com",
+        "Gender": true,
+        "Age": 30
+      }
+    ],
+    "Messages": []
+  },
+  {
+    "Id": "P1-P2",
+    "Name": "Project Alpha & Project Beta",
+    "Target": 30000,
+    "StartDate": "2024-05-01T00:00:00",
+    "EndDate": "2025-01-01T00:00:00",
+    "Description": "ket hop",
+    "Status": "Đang triễn khai",
+    "Tasks": [
+      {
+        "Name": "Task 1A",
+        "StartDate": "2024-04-10T00:00:00",
+        "EndDate": "2024-04-30T00:00:00",
+        "Process": 0,
+        "Incharge": {
+          "Id": "NV001",
+          "Name": "Nguyễn Văn A",
+          "Email": "nva@example.com",
+          "Gender": true,
+          "Age": 30
+        }
+      },
+      {
+        "Name": "Task 1B",
+        "StartDate": "2024-04-15T00:00:00",
+        "EndDate": "2024-04-20T00:00:00",
+        "Process": 0,
+        "Incharge": {
+          "Id": "NV001",
+          "Name": "Nguyễn Văn A",
+          "Email": "nva@example.com",
+          "Gender": true,
+          "Age": 30
+        }
+      },
+      {
+        "Name": "Task 1D",
+        "StartDate": "2024-04-17T00:00:00",
+        "EndDate": "2024-05-17T00:00:00",
+        "Process": 0,
+        "Incharge": null
+      },
+      {
+        "Name": "Task 2A",
+        "StartDate": "2024-04-30T00:00:00",
+        "EndDate": "2024-05-30T00:00:00",
+        "Process": 0,
+        "Incharge": null
+      },
+      {
+        "Name": "Task 2B",
+        "StartDate": "2024-04-20T00:00:00",
+        "EndDate": "2024-05-01T00:00:00",
+        "Process": 0,
+        "Incharge": null
+      }
+    ],
+    "Meetings": [],
+    "Members": [
+      {
+        "Id": "NV001",
+        "Name": "Nguyễn Văn A",
+        "Email": "nva@example.com",
+        "Gender": true,
+        "Age": 30
+      },
+      {
+        "Id": "NV002",
+        "Name": "Trần Thị B",
+        "Email": "ttb@example.com",
+        "Gender": false,
+        "Age": 25
+      }
+    ],
+    "Messages": []
+  }
+]
